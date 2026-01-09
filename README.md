@@ -1,4 +1,4 @@
-# ⚓ Naval IPsec ESP/AH Security Controller
+# IPsec ESP/AH Security Controller
  Defence-grade secure communication controller for maritime and naval networks
 
 ---
@@ -115,15 +115,15 @@ sudo ./build/esp_ah_controller
 ```
 Live status will be shown:
 
-i.Tinnel state
+- Tinnel state
 
-ii. Failures and restart
+- Failures and restart
 
-iii. Intrusion indicators
+- Intrusion indicators
 
-iv. Last success time
+- Last success time
 
-###  Windows Setup (Peer Node)
+##  Windows Setup (Peer Node)
 
 Windows acts as a native IPsec peer:
 
@@ -137,7 +137,7 @@ cd Windows
 ```bash
 Get-NetIPsecMainModeSA
 ```
-### 📊 Verification
+## 📊 Verification
 
 On Linux:
 
@@ -152,32 +152,37 @@ logs:
 tail -f /var/log/naval-ipsec.log
 ```
 
-### 📜 Demo Flow
+## 📜 Demo Flow
 As an evaluator:
 
-i. Start the controller
+- Start the controller
 
-ii. Initiate the ESP tunnel
+- Initiate the ESP tunnel
 
-iii. Show recovery by stopping IPsec
+- Show recovery by stopping IPsec
 
-iv. Show logs in naval-ipsec.log
+- Show logs in naval-ipsec.log
 
-v. Validate ESP packets via tcpdump
+- Validate ESP packets via tcpdump
 
-### 🧭 Why This Matters
+## 🧭 Why This Matters
 
 This controller:
 
-i. Integrates with real IPsec stacks
+- Integrates with real IPsec stacks
 
-ii. Handles operational failures
+- Handles operational failures
 
-iii. Suits mixed Linux/Windows nodes
+- Suits mixed Linux/Windows nodes
 
-iv. Matches real defence deployment expectations
+- Matches real defence deployment expectations
 
-### 🛡️ Licence & Disclaimer
+## 🛡️ Licence & Disclaimer
 
-This project is an independent submission for the Naval Hackathon. It is not affiliated with any government entity.
+This project is an independent submission for Microsoft Imagine Cup Hackathon. It is not affiliated with any government entity.
 
+## Team Members:
+- **Name** :- Vaibhav Porwal (Team Lead)
+- **Name** :- Achyut Kumar Pandey
+-  **Name** :- Govind Dubey
+-  **Name** :- Sharayu Bodkhe
