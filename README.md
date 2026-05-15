@@ -181,8 +181,5 @@ This controller:
 
 This project is an independent submission for Microsoft Imagine Cup Hackathon. It is not affiliated with any government entity.
 
-## Team Members:
-- **Name** :- Vaibhav Porwal (Team Lead)
-- **Name** :- Achyut Kumar Pandey
--  **Name** :- Govind Dubey
--  **Name** :- Sharayu Bodkhe
+
+
